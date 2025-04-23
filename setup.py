@@ -1,15 +1,12 @@
 import os
 from setuptools import setup, find_packages
 
-# 读取 README 作为长描述
-with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
 
 setup(
     name="linkedin-api",
     version="1.1.1",  # 基于你仓库的最新版本
     description="Unofficial LinkedIn API for Python",
-    long_description=long_description,
+    long_description="Unofficial LinkedIn API for Python",
     long_description_content_type="text/markdown",
     author="tomquirk",  # 原作者
     author_email="tomquirkacc@gmail.com",  # 推测的作者邮箱
